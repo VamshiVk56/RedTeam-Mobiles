@@ -5,7 +5,7 @@ try
 {
 Connection con=connections.getCon();
 Statement st=con.createStatement();
-String q1="create table users(Name varchar(100),email varchar(100)primary key,Mobilenumber integer,password varchar(100),Address varchar(200),City varchar(100),State varchar(100),Country varchar(100))";
+String q1="create table users(name varchar(100),email varchar(100)primary key,mobilenumber integer,password varchar(100),address varchar(200),city varchar(100),state varchar(100),country varchar(100))";
 String q2="create table products(id integer,name varchar(100),category varchar(200),price integer,active varchar(100))";
 System.out.println(q1);
 System.out.println(q2);
